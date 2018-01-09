@@ -11,25 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Formulario
-    
-    '''<summary>
-    '''Control ErrorMessage.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents ErrorMessage As Global.System.Web.UI.WebControls.Literal
-    
-    '''<summary>
-    '''Control UpdatePanel1.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents UpdatePanel1 As Global.System.Web.UI.UpdatePanel
+Partial Public Class WebForm1
     
     '''<summary>
     '''Control TextBox1.
@@ -41,15 +23,6 @@ Partial Public Class Formulario
     Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control TextBox2.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TextBox2 As Global.System.Web.UI.WebControls.TextBox
-    
-    '''<summary>
     '''Control Button1.
     '''</summary>
     '''<remarks>
@@ -59,20 +32,29 @@ Partial Public Class Formulario
     Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
-    '''Control GridView1.
+    '''Control Button2.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents Button2 As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
-    '''Control GridView2.
+    '''Control RequiredFieldValidator1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents GridView2 As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents RequiredFieldValidator1 As Global.System.Web.UI.WebControls.RequiredFieldValidator
+    
+    '''<summary>
+    '''Control RegularExpressionValidator1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents RegularExpressionValidator1 As Global.System.Web.UI.WebControls.RegularExpressionValidator
 End Class

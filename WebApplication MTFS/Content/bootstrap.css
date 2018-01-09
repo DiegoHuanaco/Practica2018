@@ -1114,6 +1114,7 @@ figure {
 }
 img {
   vertical-align: middle;
+    height: 28px;
 }
 .img-responsive,
 .thumbnail > img,
